@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="03/14/23||19:21:07" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Steering (2)" uid="Steering (2)" version="1102">
+<AssemblyFile name="Steering (2).SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Part4-1" uid="Part4-1" entityUid="Part4*:*Default">
+<Transform>
+<Rotation>-0.34520774370945034 0.93288077902881061 -0.10278650593161456 0.91452913292828997 0.35896519160072471 0.18649519094197825 0.21087455680679051 -0.029621670068624564 -0.97706421383340247</Rotation>
+<Translation>0.53846860196635549 0.46858427014335419 0.22696760346554523</Translation>
+</Transform>
+</Instance>
+<Instance name="Part3-5" uid="Part3-5" entityUid="Part3*:*Default">
+<Transform>
+<Rotation>-0.10278650593161361 0.71864010111470589 -0.68774365810832139 0.18649519094197756 -0.6652220837589653 -0.7229793379031626 -0.97706421383340292 -0.20257340484186301 -0.065647069217817891</Rotation>
+<Translation>0.23071456624642062 0.15389927918051219 0.16857402538704971</Translation>
+</Transform>
+</Instance>
+<Instance name="Steering wheel-1" uid="Steering wheel-1" entityUid="Steering wheel*:*Default">
+<Transform>
+<Rotation>-0.3452077437094509 0.93556710791799536 -0.074470130018606875 0.91452913292829008 0.35314895806438118 0.19728729924521754 0.21087455680679043 -8.1634581436962431e-16 -0.9775131310072207</Rotation>
+<Translation>0.98723602323674797 0.64480068817056668 0.19739049784625701</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0" g="0" b="0" a="1"/>
+<Diffuse r="0" g="0" b="0" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Part4-2" uid="Part4-2" entityUid="Part4*:*Default">
+<Transform>
+<Rotation>7.7533465758783393e-15 -0.99470344032700042 0.10278650593161379 0.98226684881295034 -0.019271260430813116 -0.18649519094197747 0.18748823355900723 0.10096377728194132 0.97706421383340292</Rotation>
+<Translation>0.17054824744548178 0.099486849862809465 0.13381339222696842</Translation>
+</Transform>
+</Instance>
+<Instance name="Rod-2" uid="Rod-2" entityUid="Rod*:*Default">
+<Transform>
+<Rotation>-0.34520774370945101 -0.074470130018606959 -0.93556710791799524 0.91452913292828975 0.19728729924521821 -0.35314895806438146 0.2108745568067909 -0.97751313100722059 5.6898930012039273e-16</Rotation>
+<Translation>0.96852468107838796 0.63773770900927884 0.19739049784625703</Translation>
+</Transform>
+</Instance>
+<Instance name="Innova Crysta Assembly Final-1" uid="Innova Crysta Assembly Final-1" entityUid="Innova Crysta Assembly Final" rigid="true">
+<Transform>
+<Rotation>0 -1 2.1306714045638803e-16 1 0 0 0 2.1306714045638803e-16 1</Rotation>
+<Translation>0.51901561667015839 -0.42169010320909406 0.44217099631664936</Translation>
+</Transform>
+<Instance name="Innova Crysta Rim Design attempt 1-1" uid="Innova Crysta Rim Design attempt 1-1" entityUid="Innova Crysta Rim Design attempt 1*:*Default">
+<Transform>
+<Rotation>0 0.44546265882237662 0.89530051915259123 0 0.89530051915259123 -0.44546265882237662 -1 0 0</Rotation>
+<Translation>0.30169044044954485 0.38976472891012459 0.5172235939728308</Translation>
+</Transform>
+</Instance>
+<Instance name="Innova Crysta Tire Design Attempt 2-1" uid="Innova Crysta Tire Design Attempt 2-1" grounded="true" entityUid="Innova Crysta Tire Design Attempt 2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.30169010320909406 0.16901561667015852 0.53061085090844151</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Innova Crysta Assembly Final-3" uid="Innova Crysta Assembly Final-3" entityUid="Innova Crysta Assembly Final" rigid="true">
+<Transform>
+<Rotation>-3.3306690738754731e-16 -0.99999999999999989 -1.1023420515409656e-16 -1 3.3306690738754716e-16 5.127056301143585e-16 -5.127056301143586e-16 1.1023420515409673e-16 -0.99999999999999989</Rotation>
+<Translation>0.51901561667015828 0.18169010320909379 -0.13539000067807272</Translation>
+</Transform>
+<Instance name="Innova Crysta Rim Design attempt 1-1" uid="Innova Crysta Rim Design attempt 1-1" entityUid="Innova Crysta Rim Design attempt 1*:*Default">
+<Transform>
+<Rotation>0 0.44546265882237662 0.89530051915259101 0 0.89530051915259101 -0.44546265882237662 -1 0 0</Rotation>
+<Translation>0.30169044044954485 0.38976472891012448 0.51722359397283058</Translation>
+</Transform>
+</Instance>
+<Instance name="Innova Crysta Tire Design Attempt 2-1" uid="Innova Crysta Tire Design Attempt 2-1" grounded="true" entityUid="Innova Crysta Tire Design Attempt 2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.30169010320909406 0.16901561667015841 0.53061085090844129</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Tie Rod End Shaft-1" uid="Tie Rod End Shaft-1" entityUid="Tie Rod End Shaft*:*Default">
+<Transform>
+<Rotation>-0.90011298519721905 0 0.43565653200583487 0.43565653200583487 0 0.90011298519721905 0 1 0</Rotation>
+<Translation>0.12925000000422221 -0.12000000002120442 0.85793957505541552</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Rack-1" uid="Rack-1" entityUid="Rack*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.040659739299480718 0.063841378580694635 -0.14660950215374369</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Part3-1" uid="Part3-1" entityUid="Part3*:*Default">
+<Transform>
+<Rotation>7.7628270328173446e-15 -1.3176495794132542e-15 1 0.98226684881295023 -0.18748823355900709 -7.8722114394994377e-15 0.18748823355900709 0.98226684881295023 -1.6115522759706589e-16</Rotation>
+<Translation>0.090659739299481318 0.093841378580693649 0.16339049784625601</Translation>
+</Transform>
+</Instance>
+<Instance name="Rod-1" uid="Rod-1" entityUid="Rod*:*Default">
+<Transform>
+<Rotation>0.10278650593161386 -0.71864010111470611 -0.68774365810832105 -0.18649519094197803 0.66522208375896485 -0.72297933790316282 0.97706421383340269 0.20257340484186356 -0.065647069217818169</Rotation>
+<Translation>0.49205715632758262 0.4286314275837142 0.19351991168982061</Translation>
+</Transform>
+</Instance>
+<Instance name="Tie Rod End Housing-2" uid="Tie Rod End Housing-2" entityUid="Tie Rod End Housing*:*Default">
+<Transform>
+<Rotation>-0.35438891625655206 -0.9350974771610111 -0.0010973794324830183 0.75050861408670577 -0.28513195905861727 0.59618502673670604 -0.55780401237007837 0.21045777279660471 0.80284631758097635</Rotation>
+<Translation>0.12925696836362077 -0.12378577494098253 0.85284150093877598</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Part3-3" uid="Part3-3" entityUid="Part3*:*Default">
+<Transform>
+<Rotation>0.10278650593161509 0.71864010111470511 0.68774365810832228 -0.18649519094197944 -0.66522208375896563 0.72297933790316193 0.97706421383340236 -0.20257340484186556 0.065647069217818155</Rotation>
+<Translation>0.47830228316541634 0.41417184082565089 0.19220697030546427</Translation>
+</Transform>
+</Instance>
+<Instance name="extention rod-2" uid="extention rod-2" entityUid="extention rod*:*Default">
+<Transform>
+<Rotation>0.57130781305096023 -0.82073587879836807 1.1017624079160985e-14 0.82073587879836807 0.57130781305096012 0 -6.2889931049083303e-15 9.0260664718516713e-15 1</Rotation>
+<Translation>0.040659739299478109 0.063841378580694358 -0.27660950215374414</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Specular r="0.040784313725490198" g="0.040784313725490198" b="0.040784313725490198" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Rack Rods-2" uid="Rack Rods-2" entityUid="Rack Rods*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.040659739299480718 0.063841378580693803 -0.27660950215374325</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Tie rod-2" uid="Tie rod-2" entityUid="Tie rod*:*Default">
+<Transform>
+<Rotation>0.33936102958377862 0.81474942707190157 0.4701249436967217 -0.75157813386428862 0.53539419183666392 -0.38533539682287032 -0.56565395808472085 -0.22256781086575267 0.79403977814056348</Rotation>
+<Translation>0.040659739299482661 0.063841378580694927 -0.40660950215374347</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Specular r="0.040784313725490198" g="0.040784313725490198" b="0.040784313725490198" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="pinion-1" uid="pinion-1" entityUid="pinion*:*Default">
+<Transform>
+<Rotation>1.1025438683921207e-15 -6.9037052313398436e-15 -1.0000000000000002 0.18748823355900557 -0.98226684881295057 6.9879947850278209e-15 -0.98226684881295057 -0.18748823355900557 2.1137120755240433e-16</Rotation>
+<Translation>0.040659739299481287 0.093841378580693954 0.16339049784625606</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Tie Rod End Housing-1" uid="Tie Rod End Housing-1" entityUid="Tie Rod End Housing*:*Default">
+<Transform>
+<Rotation>-0.33936102958377873 0.73217674004332989 0.59055170217294239 0.75157813386428862 -0.16647368976472501 0.63829211127288088 0.56565395808472085 0.6604572143262879 -0.49379334518343676</Rotation>
+<Translation>0.12549999669542722 -0.12405315488537701 -0.54802299167492352</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Tie Rod End Shaft-2" uid="Tie Rod End Shaft-2" entityUid="Tie Rod End Shaft*:*Default">
+<Transform>
+<Rotation>0.48926418010073619 1.2353418756282464e-15 -0.8721356328406461 0.8721356328406461 -4.4739082096816781e-16 0.48926418010073619 2.1422305315119043e-16 -0.99999999999999989 -1.2962779716811774e-15</Rotation>
+<Translation>0.12925000000422199 -0.11999999997879553 -0.55115857941683888</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="extention rod-1" uid="extention rod-1" entityUid="extention rod*:*Default">
+<Transform>
+<Rotation>0.049005483609524822 -0.99879850949838567 6.714688680643102e-15 0.99879850949838556 0.049005483609524829 0 -3.0415775708111427e-16 6.7078426919444483e-15 1</Rotation>
+<Translation>0.040659739299484202 0.063841378580694344 0.45339049784625607</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Specular r="0.040784313725490198" g="0.040784313725490198" b="0.040784313725490198" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Part3-4" uid="Part3-4" entityUid="Part3*:*Default">
+<Transform>
+<Rotation>0.34520774370945051 0.074470130018606792 -0.93556710791799547 -0.91452913292829019 -0.19728729924521776 -0.35314895806438079 -0.2108745568067906 0.9775131310072207 7.455914319776939e-16</Rotation>
+<Translation>0.61300918006954985 0.50354110494481386 0.19739049784625728</Translation>
+</Transform>
+</Instance>
+<Instance name="Tie rod-1" uid="Tie rod-1" entityUid="Tie rod*:*Default">
+<Transform>
+<Rotation>0.35438891625655217 -0.7699627659602214 -0.53062777449865151 -0.75050861408670566 0.10429657972816092 -0.65257876431788642 0.55780401237007848 0.62950739669355171 -0.54090213652004415</Rotation>
+<Translation>0.040659739299482578 0.063841378580694136 0.71339049784625619</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Specular r="0.040784313725490198" g="0.040784313725490198" b="0.040784313725490198" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Rack Rods-1" uid="Rack Rods-1" entityUid="Rack Rods*:*Default">
+<Transform>
+<Rotation>6.7469588818364474e-15 0.87298477006483921 -0.48774746666163205 0 0.48774746666163205 0.87298477006483921 1 -5.891802647399462e-15 3.2875719753177642e-15</Rotation>
+<Translation>0.040659739299485076 0.063841378580694427 0.58339049784625596</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rack-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pinion-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="RackPinionMate1">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Rack-1</Uid>
+</InstancePath>
+<Position>-0.02 0 0.0050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pinion-1</Uid>
+</InstancePath>
+<Position>0 0 0.0099999999999999985</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tie rod-2</Uid>
+</InstancePath>
+<Position>0.12999999999999998 0 0</Position>
+<Axis>-1 0 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tie Rod End Housing-1</Uid>
+</InstancePath>
+<Position>0.018400000000000083 0 0</Position>
+<Axis>1 -1.1102230246251565e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tie rod-2</Uid>
+</InstancePath>
+<Position>0.12999999999999998 0 0</Position>
+<Axis>1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tie Rod End Housing-1</Uid>
+</InstancePath>
+<Position>0.12 0 0</Position>
+<Axis>1 -1.1102230246251565e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tie rod-1</Uid>
+</InstancePath>
+<Position>0.13 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tie Rod End Housing-2</Uid>
+</InstancePath>
+<Position>0.12 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tie rod-1</Uid>
+</InstancePath>
+<Position>0.13 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tie Rod End Housing-2</Uid>
+</InstancePath>
+<Position>0.018399999999999972 0 1.1102230246251565e-16</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Tie Rod End Housing-2</Uid>
+</InstancePath>
+<Position>0 0 0.0063500000000000778</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Tie Rod End Shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Tie Rod End Housing-1</Uid>
+</InstancePath>
+<Position>0 0 0.0063500000000000223</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Tie Rod End Shaft-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Rack-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>extention rod-2</Uid>
+</InstancePath>
+<Position>0 0 0.13</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Rack Rods-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>extention rod-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Rack-1</Uid>
+</InstancePath>
+<Position>0 0 0.59999999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>extention rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Rack Rods-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>extention rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.12999999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rack Rods-2</Uid>
+</InstancePath>
+<Position>0.13 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Tie rod-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rack Rods-1</Uid>
+</InstancePath>
+<Position>0.13 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Tie rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pinion-1</Uid>
+</InstancePath>
+<Position>0 0 -0.070000000000000062</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3-1</Uid>
+</InstancePath>
+<Position>0 0 0.009999999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pinion-1</Uid>
+</InstancePath>
+<Position>0 0 -0.070000000000000062</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3-1</Uid>
+</InstancePath>
+<Position>0 0 0.009999999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pinion-1</Uid>
+</InstancePath>
+<Position>0.0099229402538456024 -0.0012390547682047948 -0.050000000000000024</Position>
+<Axis>-1.6653345369377348e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3-1</Uid>
+</InstancePath>
+<Position>0.00099999999999998701 -0.009949874371066203 0.009999999999999995</Position>
+<Axis>1 -4.4408920985006262e-16 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident47">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pinion-1</Uid>
+</InstancePath>
+<Position>0 0 -0.070000000000000062</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3-1</Uid>
+</InstancePath>
+<Position>0.034413203435831999 0 0.083000000000000004</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4-2</Uid>
+</InstancePath>
+<Position>0.030000000000000013 0 0.030271404070000008</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3-1</Uid>
+</InstancePath>
+<Position>-0.030000000000000013 -0.015000000000000041 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4-2</Uid>
+</InstancePath>
+<Position>-0.029999999999999999 0 0.030271404070000008</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4-2</Uid>
+</InstancePath>
+<Position>0 0 0.060000000000000026</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3-5</Uid>
+</InstancePath>
+<Position>0.034413203435831985 0 0.08299999999999999</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident49">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3-5</Uid>
+</InstancePath>
+<Position>0.029999999999999971 -0.014999999999999996 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.39999999999999986</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3-5</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident50">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rod-1</Uid>
+</InstancePath>
+<Position>-0.0010000000000000009 0.0099498743710662724 0.37999999999999989</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3-5</Uid>
+</InstancePath>
+<Position>0.0010000000000000009 -0.0099498743710662169 0.010000000000000009</Position>
+<Axis>1 -4.163336342344337e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident51">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.39999999999999986</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3-5</Uid>
+</InstancePath>
+<Position>0 0 0.019999999999999962</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3-4</Uid>
+</InstancePath>
+<Position>0.034413203435831985 0 0.082999999999999963</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4-1</Uid>
+</InstancePath>
+<Position>0.029999999999999971 0 0.03027140406999998</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident52">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3-4</Uid>
+</InstancePath>
+<Position>0.029999999999999971 -0.015000000000000013 -1.1102230246251565e-16</Position>
+<Axis>1.0000000000000002 0 -1.0171511154597871e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4-1</Uid>
+</InstancePath>
+<Position>-0.030000000000000082 0 0.030271404069999952</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3-3</Uid>
+</InstancePath>
+<Position>0.034413203435832013 0 0.083000000000000185</Position>
+<Axis>-1.0000000000000002 0 -1.2490009027033011e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part4-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.059999999999999998</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident53">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3-3</Uid>
+</InstancePath>
+<Position>0.029999999999999999 -0.015000000000000041 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part4-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.39999999999999986</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3-3</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 1.8561541192951836e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident54">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rod-1</Uid>
+</InstancePath>
+<Position>0.0010000000000000009 0.0099498743710661822 0.020000000000000018</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3-3</Uid>
+</InstancePath>
+<Position>0.0010000000000000009 -0.0099498743710662238 0.010000000000000009</Position>
+<Axis>0.99999999999999989 -5.2735593669694936e-16 1.2490009027033011e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident55">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3-3</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>0 -1.8561541192951836e-16 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric27">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Part3-4</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>-1.0171511154597878e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Rod-2</Uid>
+</InstancePath>
+<Position>0 0 0.40000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident56">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3-4</Uid>
+</InstancePath>
+<Position>-0.0010000000000000564 -0.0099498743710661752 0.010000000000000009</Position>
+<Axis>-1.0000000000000002 5.2735593669694936e-16 1.0171511154597906e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rod-2</Uid>
+</InstancePath>
+<Position>0.0010000000000000564 0.0099498743710661752 0.38000000000000012</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Part3-4</Uid>
+</InstancePath>
+<Position>0 0 0.019999999999999907</Position>
+<Axis>1.0171511154597878e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rod-2</Uid>
+</InstancePath>
+<Position>0 0 0.40000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric29">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Rod-2</Uid>
+</InstancePath>
+<Position>0 0 0.40000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Steering wheel-1</Uid>
+</InstancePath>
+<Position>0 -0.029999999999999805 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rod-2</Uid>
+</InstancePath>
+<Position>0.00099999999999994538 0.009949874371066203 0.020000000000000018</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steering wheel-1</Uid>
+</InstancePath>
+<Position>0.00050000000000000044 -0.029999999999999805 0.0049749371855331292</Position>
+<Axis>1 0 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident60">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rod-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steering wheel-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000018 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Steering wheel-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000018 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Steering (2)</Uid>
+</InstancePath>
+<Position>1.2680927957137265 0.75081582671716873 0.19739049784625681</Position>
+<Axis>-0.93556710791799558 -0.35314895806438062 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric34">
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Tie Rod End Shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-1</Uid>
+<Uid>Innova Crysta Rim Design attempt 1-1</Uid>
+</InstancePath>
+<Position>-0.20124298476593538 6.445707653457422e-07 -6.9741259924732679e-07</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident61">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tie Rod End Shaft-1</Uid>
+</InstancePath>
+<Position>0 0.10033000000000003 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-1</Uid>
+<Uid>Innova Crysta Rim Design attempt 1-1</Uid>
+</InstancePath>
+<Position>0.001125015234064719 -0.060959355429234696 -6.9741259924732679e-07</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-1</Uid>
+<Uid>Innova Crysta Tire Design Attempt 2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steering (2)</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-1</Uid>
+<Uid>Innova Crysta Tire Design Attempt 2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steering (2)</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Parallel name="Parallel14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-1</Uid>
+<Uid>Innova Crysta Tire Design Attempt 2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steering (2)</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-3</Uid>
+<Uid>Innova Crysta Tire Design Attempt 2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident73">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-1</Uid>
+<Uid>Innova Crysta Tire Design Attempt 2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-3</Uid>
+<Uid>Innova Crysta Tire Design Attempt 2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident74">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-1</Uid>
+<Uid>Innova Crysta Tire Design Attempt 2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-3</Uid>
+<Uid>Innova Crysta Tire Design Attempt 2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric39">
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Tie Rod End Shaft-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-3</Uid>
+<Uid>Innova Crysta Rim Design attempt 1-1</Uid>
+</InstancePath>
+<Position>-0.20124298476593527 6.4457076536655888e-07 -6.9741259925426569e-07</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident75">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tie Rod End Shaft-2</Uid>
+</InstancePath>
+<Position>0 0.10033000000000003 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-3</Uid>
+<Uid>Innova Crysta Rim Design attempt 1-1</Uid>
+</InstancePath>
+<Position>0.001125015234064719 -0.060959355429234648 -6.9741259925426569e-07</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Perpendicular name="Perpendicular4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Innova Crysta Assembly Final-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steering (2)</Uid>
+</InstancePath>
+<Position>0.12924999999999945 0 0</Position>
+<Axis>-1 -5.2334200623737297e-16 0</Axis>
+</ConstraintGeometry>
+</Perpendicular>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Innova Crysta Assembly Final" uid="Innova Crysta Assembly Final" version="116">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Innova Crysta Assembly Final.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Innova Crysta Rim Design attempt 1" uid="Innova Crysta Rim Design attempt 1*:*Default" version="229">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Innova Crysta Rim Design attempt 1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.7858902143837569</Mass>
+<CenterOfMass>0.0056250654421625967 3.2228547165517972e-06 -3.4245208394711365e-06</CenterOfMass>
+<Inertia>0.019060832105913448 0.0098761397098388101 0.0098757563490416388 1.5878345666006261e-07 4.2393427043312535e-08 -6.0260665420569635e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Innova Crysta Rim Design attempt 1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Innova Crysta Tire Design Attempt 2" uid="Innova Crysta Tire Design Attempt 2*:*Default" version="439">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Innova Crysta Tire Design Attempt 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.9469016974526836</Mass>
+<CenterOfMass>-2.9215565104407465e-06 0.22075000001328302 -0.082074152853893231</CenterOfMass>
+<Inertia>0.19532090348102596 0.19532090340282829 0.35284511530855489 1.2332929361794945e-11 6.9608621475385145e-07 4.9663821187863194e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Innova Crysta Tire Design Attempt 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part3" uid="Part3*:*Default" version="644">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11805155139635726</Mass>
+<CenterOfMass>0.00028178840732865696 -3.6537740564680501e-06 0.03398215548052734</CenterOfMass>
+<Inertia>7.366972608061393e-05 7.9120497474604399e-05 6.1917597438756545e-05 -8.1877026709031839e-09 -3.3859114916509927e-08 -1.2253540353423001e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Part3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.72156862745098038" b="0.32941176470588235" a="1"/>
+<Diffuse r="0.80000000000000004" g="0.57725490196078433" b="0.2635294117647059" a="1"/>
+<Specular r="0.29999999999999999" g="0.21647058823529411" b="0.098823529411764699" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part4" uid="Part4*:*Default" version="233">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.03598481998982847</Mass>
+<CenterOfMass>-9.1410486964138705e-09 -7.9304349663662426e-09 0.030115566046712214</CenterOfMass>
+<Inertia>8.7553722645811606e-06 1.5577801488357603e-05 8.7547220835328455e-06 -1.9335300456773091e-11 2.0646167921479181e-12 1.6882345020303711e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Part4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.38039215686274508" g="0.47843137254901957" b="0.78823529411764703" a="1"/>
+<Diffuse r="0.30431372549019609" g="0.38274509803921569" b="0.63058823529411767" a="1"/>
+<Specular r="0.11411764705882352" g="0.14352941176470588" b="0.2364705882352941" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rack Rods" uid="Rack Rods*:*Default" version="365">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rack Rods.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11283553614143339</Mass>
+<CenterOfMass>0.073167053364269125 0 0</CenterOfMass>
+<Inertia>5.1953434010271714e-05 0.00018914501075759221 0.00018914501075759224 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Rack Rods_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rack" uid="Rack*:*Default" version="157">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rack.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.43070714770164847</Mass>
+<CenterOfMass>0 -0.0071454414052185295 0.30031159667658081</CenterOfMass>
+<Inertia>0.012937214027485228 0.012965985882269247 6.0950592585164286e-05 -1.2649210736271606e-06 2.4399631112432434e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="Rack_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rod" uid="Rod*:*Default" version="184">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rod.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.086548626923724531</Mass>
+<CenterOfMass>0 -2.0212028141824763e-05 0.19999559837292127</CenterOfMass>
+<Inertia>0.0011561607752692328 0.0011561800161073419 1.1642872477695123e-05 4.5696094285268629e-09 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Rod_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.83921568627450982" g="0.83921568627450982" b="0.92156862745098034" a="1"/>
+<Diffuse r="0.67137254901960786" g="0.67137254901960786" b="0.73725490196078436" a="1"/>
+<Specular r="0.29372549019607841" g="0.29372549019607841" b="0.3225490196078431" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Steering wheel" uid="Steering wheel*:*Default" version="201">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Steering wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.59936822143858437</Mass>
+<CenterOfMass>-1.8888663654350059e-06 0.012075998376376209 0.0010949507468668331</CenterOfMass>
+<Inertia>0.0062015540693601372 0.012319765424786012 0.0062628207340628657 9.6940320398555377e-06 -2.1636630278138568e-09 -2.1035850005512761e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Steering wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Specular r="0.62862744027493045" g="0.62862744027493045" b="0.62862744027493045" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.30000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tie Rod End Housing" uid="Tie Rod End Housing*:*Default" version="213">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tie Rod End Housing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.41404382559896302</Mass>
+<CenterOfMass>0.016474673589264983 -6.8419579438709676e-10 -0.00090059660670481338</CenterOfMass>
+<Inertia>0.00036037346469165369 0.00086899543625876025 0.001045866104742289 -3.1251096571643565e-11 -6.2938711464791218e-06 -2.6775077180762065e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Tie Rod End Housing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Specular r="0.42156862745098039" g="0.40784313725490196" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tie Rod End Shaft" uid="Tie Rod End Shaft*:*Default" version="425">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tie Rod End Shaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10844794772779688</Mass>
+<CenterOfMass>-6.0830140104754526e-09 0.021443223377965989 9.4524665895064225e-07</CenterOfMass>
+<Inertia>0.00012448382131969291 2.1123618050783977e-05 0.00012448396523956752 -4.0306295090388201e-09 -1.3236290576301038e-10 4.4321246716577084e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Tie Rod End Shaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.84313725490196079" g="0.81568627450980391" b="0.75294117647058822" a="1"/>
+<Specular r="0.42156862745098039" g="0.40784313725490196" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tie rod" uid="Tie rod*:*Default" version="241">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tie rod.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10569611606969953</Mass>
+<CenterOfMass>0.050158188984262921 0 0</CenterOfMass>
+<Inertia>1.2781128005694764e-05 0.00020884656324514505 0.00020884656324514505 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tie rod_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Specular r="0.040784313725490198" g="0.040784313725490198" b="0.040784313725490198" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="extention rod" uid="extention rod*:*Default" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="extention rod.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.16336281798666927</Mass>
+<CenterOfMass>0 0 0.065000000000000002</CenterOfMass>
+<Inertia>0.00024640558379655949 0.00024640558379655949 3.2672563597333863e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="extention rod_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pinion" uid="pinion*:*Default" version="299">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="pinion.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.046536004482979058</Mass>
+<CenterOfMass>-8.9193110887034379e-06 2.1041370187656403e-07 -0.0070778490728593156</CenterOfMass>
+<Inertia>2.3028456560412249e-05 2.3024117354092252e-05 1.6934451060724786e-05 5.1820380400078073e-10 -2.1966349598212316e-08 -1.0249898081912006e-10</Inertia>
+</MassProperties>
+<GeometryFile name="pinion_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

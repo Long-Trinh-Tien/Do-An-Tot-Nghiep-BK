@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="03/14/23||10:15:31" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Final Main Steering Mechanism.STEP" uid="Final Main Steering Mechanism.STEP" version="103">
+<AssemblyFile name="Final Main Steering Mechanism.STEP.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="connector2.STEP-2" uid="connector2.STEP-2" grounded="true" entityUid="connector2.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.99961015472117953 -0.027920218091905986 1 0 0 0 -0.027920218091905986 0.99961015472117953</Rotation>
+<Translation>-0.40337620010999098 0.050000000000000003 1.1769752101841551</Translation>
+</Transform>
+</Instance>
+<Instance name="connector.STEP-1" uid="connector.STEP-1" grounded="true" entityUid="connector.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.027920218091903985 0.99961015472117953 -1 0 0 0 -0.99961015472117953 -0.027920218091903985</Rotation>
+<Translation>0.97764508003012096 0.074999999999999997 1.1797672319933461</Translation>
+</Transform>
+</Instance>
+<Instance name="connector.STEP-2" uid="connector.STEP-2" grounded="true" entityUid="connector.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.027920218091905986 -0.99961015472117953 -1 0 0 0 0.99961015472117953 -0.027920218091905986</Rotation>
+<Translation>-0.30341518463787198 0.074999999999999997 1.1797672319933461</Translation>
+</Transform>
+</Instance>
+<Instance name="Main Steering Mechanism.STEP-1" uid="Main Steering Mechanism.STEP-1" grounded="true" entityUid="Main Steering Mechanism.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.21776031095481399 0.048674642778966 0.95811679851541698</Translation>
+</Transform>
+<Instance name="Universal Coupling.STEP-1" uid="Universal Coupling.STEP-1" grounded="true" entityUid="Universal Coupling.STEP" rigid="true">
+<Transform>
+<Rotation>0.92973774420858346 0.34246575342460506 0.13529573062463046 0.33651779999529019 -0.64109589041099391 -0.68974765645449276 -0.14947741394694006 0.6868138518037129 -0.71129686888828836</Rotation>
+<Translation>-0.13440205599553301 0.179483387146435 -0.13489604245768405</Translation>
+</Transform>
+<Instance name="U-connector.STEP-2" uid="U-connector.STEP-2" grounded="true" entityUid="U-connector.STEP*:*Default">
+<Transform>
+<Rotation>-7.0456031530767746e-15 -0.98876514032389706 -0.14947741394693714 -0.71937899090504165 -0.10382967020552436 0.68681385180371524 -0.69461778514838202 0.10753091120824775 -0.71129686888828614</Rotation>
+<Translation>0.067869547986437018 0.17484838788098006 0.084419446241593032</Translation>
+</Transform>
+</Instance>
+<Instance name="U-connector.STEP-1" uid="U-connector.STEP-1" grounded="true" entityUid="U-connector.STEP*:*Default">
+<Transform>
+<Rotation>-1 6.9250161160994684e-15 -1.3974932322469126e-14 1.3974932322469155e-14 3.9968028886505643e-15 -1 -6.9250161160994123e-15 -1 -3.9968028886506614e-15</Rotation>
+<Translation>0.07609080575430803 0.082073626032700908 0.12354077403244113</Translation>
+</Transform>
+</Instance>
+<Instance name="Cross Linkage.STEP-1" uid="Cross Linkage.STEP-1" grounded="true" entityUid="Cross Linkage.STEP*:*Default">
+<Transform>
+<Rotation>-1.4988010832439613e-14 -2.9766598623494228e-15 0.99999999999999989 -0.69461778514837813 -0.71937899090504531 -1.2559397966072083e-14 0.71937899090504509 -0.69461778514837835 8.6736173798840355e-15</Rotation>
+<Translation>0.076090805753532997 0.13707362603257395 0.12354077403210406</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Universal Coupling-1.STEP-1" uid="Universal Coupling-1.STEP-1" grounded="true" entityUid="Universal Coupling-1.STEP" rigid="true">
+<Transform>
+<Rotation>0.79491834169168318 -1.3020479449565033e-14 0.60671643297519506 0.60671643297519506 -6.0156308112893073e-15 -0.79491834169168318 1.4000000000000003e-14 1 3.1178035785274369e-15</Rotation>
+<Translation>-0.38544019487602799 0.55203928497568699 -0.77844773784940402</Translation>
+</Transform>
+<Instance name="Cross Linkage.STEP-1" uid="Cross Linkage.STEP-1" grounded="true" entityUid="Cross Linkage.STEP*:*Default">
+<Transform>
+<Rotation>-7.0170462529702488e-15 1.299929361579018e-14 0.99999999999999989 -0.69154153657647077 0.72233669655462862 -1.4277555756156305e-14 -0.72233669655462862 -0.69154153657647077 3.8857805861880471e-15</Rotation>
+<Translation>0.076090805752781071 0.13707362603293799 0.12354077403189195</Translation>
+</Transform>
+</Instance>
+<Instance name="U-connector.STEP-2" uid="U-connector.STEP-2" grounded="true" entityUid="U-connector.STEP*:*Default">
+<Transform>
+<Rotation>1.6996096504440759e-14 -0.99316355631193265 -0.11673110302671878 0.72233669655462962 -0.080724406353351111 0.68681385180370669 -0.69154153657646966 -0.084319159345509737 0.71739848240480797</Rotation>
+<Translation>0.069670595087866966 0.17484838788205803 0.162997690565091</Translation>
+</Transform>
+</Instance>
+<Instance name="U-connector.STEP-1" uid="U-connector.STEP-1" grounded="true" entityUid="U-connector.STEP*:*Default">
+<Transform>
+<Rotation>-0.99999999999999989 6.9388939039072268e-15 -1.4e-14 1.4e-14 2.9999999999999998e-15 -1 -6.9388939039072284e-15 -0.99999999999999989 -3.0000000000000002e-15</Rotation>
+<Translation>0.076090805754307961 0.082073626032701019 0.12354077403244101</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="gfg_Metric - Spur gear 2M 20T 20PA 30FW ---S20N75H50L25N.STEP-1" uid="gfg_Metric - Spur gear 2M 20T 20PA 30FW ---S20N75H50L25N.STEP-1" grounded="true" entityUid="gfg_Metric - Spur gear 2M 20T 20PA 30FW ---S20N75H50L25N.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.90240084097492301 -0.43089757739833201 0 0.43089757739833201 -0.90240084097492301 1 0 0</Rotation>
+<Translation>6.9944050551384862e-15 0.031999999999954003 -0.030000000000000027</Translation>
+</Transform>
+</Instance>
+<Instance name="Connecting Rod.STEP-1" uid="Connecting Rod.STEP-1" grounded="true" entityUid="Connecting Rod.STEP*:*Default">
+<Transform>
+<Rotation>0.89808825761838862 0.27596139088516392 0.34246575342461977 0.008659866386683996 0.76741192720227025 -0.64109589041099158 -0.43973001744494483 0.57872639885218924 0.68681385180370758</Rotation>
+<Translation>-0.20205479452044101 0.410246575342475 -0.54522017256425603</Translation>
+</Transform>
+</Instance>
+<Instance name="Rack gear.STEP-1" uid="Rack gear.STEP-1" grounded="true" entityUid="Rack gear.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.095041159921951002 0.0069999999999999993 -0.015000000000000013</Translation>
+</Transform>
+</Instance>
+<Instance name="Steering Wheel.STEP-1" uid="Steering Wheel.STEP-1" grounded="true" entityUid="Steering Wheel.STEP*:*Default">
+<Transform>
+<Rotation>-0.57816021291890496 0.81592326121858205 0 -0.81592326121858205 -0.57816021291890496 0 0 0 1</Rotation>
+<Translation>-0.24999999999987299 0.49999999999997408 -0.78137411181670202</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="connector2.STEP-1" uid="connector2.STEP-1" grounded="true" entityUid="connector2.STEP*:*Default">
+<Transform>
+<Rotation>0 0.99961015472117953 -0.027920218091903985 1 0 0 0 -0.027920218091903985 -0.99961015472117953</Rotation>
+<Translation>1.0776060955022391 0.050000000000000003 1.1769752101841551</Translation>
+</Transform>
+</Instance>
+<Instance name="connector3.STEP-1" uid="connector3.STEP-1" grounded="true" entityUid="connector3.STEP*:*Default">
+<Transform>
+<Rotation>-0.49786999033990798 0 -0.86725167784152501 0 1 0 0.86725167784152501 0 -0.49786999033990798</Rotation>
+<Translation>-0.35521690189441002 0.119674642778966 1.0709708094622621</Translation>
+</Transform>
+</Instance>
+<Instance name="wheels connector.STEP-1" uid="wheels connector.STEP-1" grounded="true" entityUid="wheels connector.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.33711494769612399 0.012500000000000001 1.1775</Translation>
+</Transform>
+</Instance>
+<Instance name="v_rin pneumatique_D_faut.STEP-1" uid="v_rin pneumatique_D_faut.STEP-1" grounded="true" entityUid="v_rin pneumatique_D_faut.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.54945292223106101 0.055674642778965999 0.93500929790334197</Translation>
+</Transform>
+<Instance name="tompon amortisseur_D_faut.STEP-1" uid="tompon amortisseur_D_faut.STEP-1" grounded="true" entityUid="tompon amortisseur_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.9752431019628337 0.22113546091459391 0 -0.22113546091459391 0.9752431019628337</Rotation>
+<Translation>-0.029733771198197978 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="tige de v_rin_D_faut.STEP-1" uid="tige de v_rin_D_faut.STEP-1" grounded="true" entityUid="tige de v_rin_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.07673377119819802 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="2.flasque avant_D_faut.STEP-1" uid="2.flasque avant_D_faut.STEP-1" grounded="true" entityUid="2.flasque avant_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.04823377119819805 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="joint d&apos;&apos;amortissement de la tige_D_faut.STEP-1" uid="joint d&apos;&apos;amortissement de la tige_D_faut.STEP-1" grounded="true" entityUid="joint d&apos;&apos;amortissement de la tige_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.9752431019628337 0.22113546091459391 0 -0.22113546091459391 0.9752431019628337</Rotation>
+<Translation>0.11176622880180198 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="piston_D_faut.STEP-1" uid="piston_D_faut.STEP-1" grounded="true" entityUid="piston_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.75349902430266802 0.65744902492507196 0 -0.65744902492507196 0.75349902430266802</Rotation>
+<Translation>-0.0017337711981979531 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="1.flasque arri_re_D_faut.STEP-1" uid="1.flasque arri_re_D_faut.STEP-1" grounded="true" entityUid="1.flasque arri_re_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.11176622880180198 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="3.cylindre_D_faut.STEP-1" uid="3.cylindre_D_faut.STEP-1" grounded="true" entityUid="3.cylindre_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.90472969287263205 0.42598612986175199 0 -0.42598612986175199 0.90472969287263205</Rotation>
+<Translation>0.031766228801802021 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="joint torique n_1_D_faut.STEP-1" uid="joint torique n_1_D_faut.STEP-1" grounded="true" entityUid="joint torique n_1_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99911877270091853 -0.041972348476231977 0 0.041972348476231977 0.99911877270091853</Rotation>
+<Translation>0.11176622880180198 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="joint torique n_1_D_faut.STEP-2" uid="joint torique n_1_D_faut.STEP-2" grounded="true" entityUid="joint torique n_1_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.95229553390730648 0.30517735187952283 0 -0.30517735187952283 0.95229553390730648</Rotation>
+<Translation>0.0017662288018019945 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="joint d&apos;&apos;amortissement tige_D_faut.STEP-1" uid="joint d&apos;&apos;amortissement tige_D_faut.STEP-1" grounded="true" entityUid="joint d&apos;&apos;amortissement tige_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 -0.93492093479569549 0.35485609150857617 0 0.35485609150857617 0.93492093479569549</Rotation>
+<Translation>-0.04823377119819805 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="joint de piston_D_faut.STEP-2" uid="joint de piston_D_faut.STEP-2" grounded="true" entityUid="joint de piston_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99997725481397903 -0.0067446167198729999 0 0.0067446167198729999 0.99997725481397903</Rotation>
+<Translation>0.018266228801801954 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="_lement de guidage_D_faut.STEP-1" uid="_lement de guidage_D_faut.STEP-1" grounded="true" entityUid="_lement de guidage_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -0.94406310181380104 0.32976485530405503 0 -0.32976485530405503 -0.94406310181380104</Rotation>
+<Translation>-0.0017337711981979531 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="joint racleur_D_faut.STEP-1" uid="joint racleur_D_faut.STEP-1" grounded="true" entityUid="joint racleur_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.9752431019628337 -0.22113546091459391 0 -0.22113546091459391 -0.9752431019628337</Rotation>
+<Translation>-0.04823377119819805 0.0081075005622810448 2.0106999398805669e-11</Translation>
+</Transform>
+</Instance>
+<Instance name="tirants_D_faut.STEP-2" uid="tirants_D_faut.STEP-2" grounded="true" entityUid="tirants_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.92232662522744147 0.38641117529978214 0 -0.38641117529978214 0.92232662522744147</Rotation>
+<Translation>0.031766228801802021 0.037607500612074962 0.029499999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="tirants_D_faut.STEP-3" uid="tirants_D_faut.STEP-3" grounded="true" entityUid="tirants_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.89131055014694904 0.45339332063534299 0 -0.45339332063534299 0.89131055014694904</Rotation>
+<Translation>0.031766228801802021 -0.021392499387924979 0.029499999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="joint torique n_2_D_faut.STEP-1" uid="joint torique n_2_D_faut.STEP-1" grounded="true" entityUid="joint torique n_2_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.75349902430266802 0.65744902492507196 0 -0.65744902492507196 0.75349902430266802</Rotation>
+<Translation>-0.0017337711981979531 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="torque nut 08_iso_ISO 10511-M8-N.STEP-1" uid="torque nut 08_iso_ISO 10511-M8-N.STEP-1" grounded="true" entityUid="torque nut 08_iso_ISO 10511-M8-N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 -0.22113546091459391 0.9752431019628337 0 -0.9752431019628337 -0.22113546091459391 0</Rotation>
+<Translation>0.12796622880180197 0.037607500612074962 0.029499999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="tampon amortisseur 2_D_faut.STEP-1" uid="tampon amortisseur 2_D_faut.STEP-1" grounded="true" entityUid="tampon amortisseur 2_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.013266228801801949 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="tirants_D_faut.STEP-1" uid="tirants_D_faut.STEP-1" grounded="true" entityUid="tirants_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.94307260763259149 -0.33258691605813984 0 0.33258691605813984 0.94307260763259149</Rotation>
+<Translation>0.031766228801802021 0.037607500612074962 -0.029499999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="vis de r_glage d&apos;&apos;amortissement _D_faut.STEP-1" uid="vis de r_glage d&apos;&apos;amortissement _D_faut.STEP-1" grounded="true" entityUid="vis de r_glage d&apos;&apos;amortissement _D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.11176622880180198 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="joint vis_D_faut.STEP-2" uid="joint vis_D_faut.STEP-2" grounded="true" entityUid="joint vis_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.051233771198197997 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="torque nut 08_iso_ISO 10511-M8-N.STEP-2" uid="torque nut 08_iso_ISO 10511-M8-N.STEP-2" grounded="true" entityUid="torque nut 08_iso_ISO 10511-M8-N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 -0.22113546091459391 0.9752431019628337 0 -0.9752431019628337 -0.22113546091459391 0</Rotation>
+<Translation>0.12796622880180197 0.037607500612074962 -0.029499999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="torque nut 08_iso_ISO 10511-M8-N.STEP-3" uid="torque nut 08_iso_ISO 10511-M8-N.STEP-3" grounded="true" entityUid="torque nut 08_iso_ISO 10511-M8-N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 -0.22113546091459391 0.9752431019628337 0 -0.9752431019628337 -0.22113546091459391 0</Rotation>
+<Translation>0.12796622880180197 -0.021392499387924979 0.029499999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="bague de guidage_D_faut.STEP-1" uid="bague de guidage_D_faut.STEP-1" grounded="true" entityUid="bague de guidage_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.9752431019628337 -0.22113546091459391 0 -0.22113546091459391 -0.9752431019628337</Rotation>
+<Translation>-0.04823377119819805 0.0081075005625079744 2.0167999215114918e-11</Translation>
+</Transform>
+</Instance>
+<Instance name="vis de r_glage d&apos;&apos;amortissement _D_faut.STEP-2" uid="vis de r_glage d&apos;&apos;amortissement _D_faut.STEP-2" grounded="true" entityUid="vis de r_glage d&apos;&apos;amortissement _D_faut.STEP*:*Default">
+<Transform>
+<Rotation>0.49202727361464399 0 0.87057978498202004 0 1 0 -0.87057978498202004 0 0.49202727361464399</Rotation>
+<Translation>-0.050471812108620007 0.0081075006120749915 0.0013058696774730025</Translation>
+</Transform>
+</Instance>
+<Instance name="torque nut 08_iso_ISO 10511-M8-N.STEP-5" uid="torque nut 08_iso_ISO 10511-M8-N.STEP-5" grounded="true" entityUid="torque nut 08_iso_ISO 10511-M8-N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.98578408381817195 0.16801708273496199 0 0.16801708273496199 -0.98578408381817195 0</Rotation>
+<Translation>-0.064433771198197987 0.037607500612074962 0.029499999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="tirants_D_faut.STEP-4" uid="tirants_D_faut.STEP-4" grounded="true" entityUid="tirants_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.96488198929950164 0.2626837389817579 0 -0.2626837389817579 0.96488198929950164</Rotation>
+<Translation>0.031766228801802021 -0.021392499387924979 -0.029499999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="torque nut 08_iso_ISO 10511-M8-N.STEP-6" uid="torque nut 08_iso_ISO 10511-M8-N.STEP-6" grounded="true" entityUid="torque nut 08_iso_ISO 10511-M8-N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.98578408381817195 0.16801708273496199 0 0.16801708273496199 -0.98578408381817195 0</Rotation>
+<Translation>-0.064433771198197987 0.037607500612074962 -0.029499999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="torque nut 08_iso_ISO 10511-M8-N.STEP-4" uid="torque nut 08_iso_ISO 10511-M8-N.STEP-4" grounded="true" entityUid="torque nut 08_iso_ISO 10511-M8-N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 -0.22113546091459391 0.9752431019628337 0 -0.9752431019628337 -0.22113546091459391 0</Rotation>
+<Translation>0.12796622880180197 -0.021392499387924979 -0.029499999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="joint de piston_D_faut.STEP-1" uid="joint de piston_D_faut.STEP-1" grounded="true" entityUid="joint de piston_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99997725481397903 -0.0067446167198729999 0 0.0067446167198729999 0.99997725481397903</Rotation>
+<Translation>-0.00073377119819795222 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="joint vis_D_faut.STEP-1" uid="joint vis_D_faut.STEP-1" grounded="true" entityUid="joint vis_D_faut.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.11176622880180198 0.0081075006120749915 0</Translation>
+</Transform>
+</Instance>
+<Instance name="torque nut 08_iso_ISO 10511-M8-N.STEP-7" uid="torque nut 08_iso_ISO 10511-M8-N.STEP-7" grounded="true" entityUid="torque nut 08_iso_ISO 10511-M8-N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.98578408381817195 0.16801708273496199 0 0.16801708273496199 -0.98578408381817195 0</Rotation>
+<Translation>-0.064433771198197987 -0.021392499387924979 -0.029499999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="torque nut 08_iso_ISO 10511-M8-N.STEP-8" uid="torque nut 08_iso_ISO 10511-M8-N.STEP-8" grounded="true" entityUid="torque nut 08_iso_ISO 10511-M8-N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.98578408381817195 0.16801708273496199 0 0.16801708273496199 -0.98578408381817195 0</Rotation>
+<Translation>-0.064433771198197987 -0.021392499387924979 0.029499999999999998</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Wheels.STEP-1" uid="Wheels.STEP-1" grounded="true" entityUid="Wheels.STEP*:*Default">
+<Transform>
+<Rotation>0.014188619328943997 0.024046240035354011 0.99961015472117953 0.86124828811154175 -0.50818440179224178 -3.174543961037557e-16 0.50798628850243288 0.86091253453252947 -0.027920218091905105</Rotation>
+<Translation>1.1075944001438749 0.050000000000000003 1.176137603641398</Translation>
+</Transform>
+</Instance>
+<Instance name="connector3.STEP-2" uid="connector3.STEP-2" grounded="true" entityUid="connector3.STEP*:*Default">
+<Transform>
+<Rotation>0.4978699903399052 0 -0.86725167784152635 0 1 0 0.86725167784152635 0 0.4978699903399052</Rotation>
+<Translation>1.0294467972866581 0.118674642778966 1.070970809462263</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheels.STEP-2" uid="Wheels.STEP-2" grounded="true" entityUid="Wheels.STEP*:*Default">
+<Transform>
+<Rotation>0.010072461295662005 0.026040048036571999 -0.99961015472117953 0.93265919166014644 -0.36075868972464464 -2.8622937353617317e-16 -0.36061804965266214 -0.932295598877529 -0.027920218091905844</Rotation>
+<Translation>-0.43336450475162602 0.050000000000000003 1.176137603641398</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Main Steering Mechanism.STEP" uid="Main Steering Mechanism.STEP" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Main Steering Mechanism.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Universal Coupling.STEP" uid="Universal Coupling.STEP" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Universal Coupling.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Universal Coupling-1.STEP" uid="Universal Coupling-1.STEP" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Universal Coupling-1.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="v_rin pneumatique_D_faut.STEP" uid="v_rin pneumatique_D_faut.STEP" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="v_rin pneumatique_D_faut.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="1.flasque arri_re_D_faut.STEP" uid="1.flasque arri_re_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="1.flasque arri_re_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.16158238199445238</Mass>
+<CenterOfMass>-0.0055155933157566596 -0.00010731617938343934 7.450009587262755e-10</CenterOfMass>
+<Inertia>0.00014200000035829026 9.4210954903134098e-05 9.1872389293631244e-05 -2.6034558874415512e-12 -4.8792370272617063e-13 9.9160090309112701e-08</Inertia>
+</MassProperties>
+<GeometryFile name="1.flasque arri_re_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2.flasque avant_D_faut.STEP" uid="2.flasque avant_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="2.flasque avant_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18692046407957819</Mass>
+<CenterOfMass>-0.00327898478216974 -0.00010650306269997197 1.7289324494748113e-09</CenterOfMass>
+<Inertia>0.00014726365644249866 0.0001102003922390118 0.00010782343001431094 -5.5805443186254255e-12 -3.2707239821255853e-12 6.6579696116013272e-08</Inertia>
+</MassProperties>
+<GeometryFile name="2.flasque avant_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="3.cylindre_D_faut.STEP" uid="3.cylindre_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="3.cylindre_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.082702426605751389</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>8.7540518562187906e-05 0.00016937456968857853 0.00016937456968857848 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="3.cylindre_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Connecting Rod.STEP" uid="Connecting Rod.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Connecting Rod.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.22089323345553236</Mass>
+<CenterOfMass>0 0 0.22500000000000001</CenterOfMass>
+<Inertia>0.0037362019564939654 0.0037362019564939654 1.7257283863713471e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Connecting Rod.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cross Linkage.STEP" uid="Cross Linkage.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cross Linkage.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.034365476499130923</Mass>
+<CenterOfMass>-5.5469517971979905e-09 -1.2837085726559948e-07 -2.9459250842810245e-07</CenterOfMass>
+<Inertia>1.8350482335908504e-05 1.2525683714444166e-05 1.2526392720895947e-05 4.3553110500076986e-14 1.2089747698459158e-11 2.5056015380188304e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Cross Linkage.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rack gear.STEP" uid="Rack gear.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rack gear.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.65750692250497034</Mass>
+<CenterOfMass>-0.26326026630243127 0.010846365197996265 7.9788070010415026e-08</CenterOfMass>
+<Inertia>0.00052368630313873535 0.021459835783067659 0.021804342462008013 -4.4905211962581466e-09 1.0935888554953951e-08 0.0010822389401072632</Inertia>
+</MassProperties>
+<GeometryFile name="Rack gear.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Steering Wheel.STEP" uid="Steering Wheel.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Steering Wheel.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.69478360567739528</Mass>
+<CenterOfMass>3.0033201827706477e-08 -2.6952678690600819e-09 0.01636313854994309</CenterOfMass>
+<Inertia>0.0071864944246447151 0.0071864933064735509 0.014284609261846166 -1.1947003976330088e-09 -2.6907500629464751e-10 -2.5605464033938074e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Steering Wheel.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="U-connector.STEP" uid="U-connector.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="U-connector.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12059402378099415</Mass>
+<CenterOfMass>0 0 0.00051293059896210668</CenterOfMass>
+<Inertia>0.00019234879753846169 0.00027288958449630087 0.00010714618284729164 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="U-connector.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Wheels.STEP" uid="Wheels.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Wheels.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>10.828271693520163</Mass>
+<CenterOfMass>-6.7198424175467043e-06 -1.7423907979919315e-05 0.095067287574975817</CenterOfMass>
+<Inertia>0.34690559100494384 0.34692471682053472 0.64009742872090536 4.6560380468018905e-06 1.7029194914064082e-06 9.3610433079014924e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Wheels.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="_lement de guidage_D_faut.STEP" uid="_lement de guidage_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="_lement de guidage_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0030159289474461985</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.7173519816490248e-06 1.3747609452108911e-06 1.3747609452108926e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="_lement de guidage_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bague de guidage_D_faut.STEP" uid="bague de guidage_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bague de guidage_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0044795276901819104</Mass>
+<CenterOfMass>0.013500000000000002 0 0</CenterOfMass>
+<Inertia>3.3356944683829632e-07 4.5859689668294928e-07 4.5859689668294928e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="bague de guidage_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="connector.STEP" uid="connector.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="connector.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.6666072800382562</Mass>
+<CenterOfMass>0.025000000000000001 0 0.13579057072586528</CenterOfMass>
+<Inertia>0.0056854334915722171 0.0056837534910208209 0.00023852687955705241 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="connector.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="connector2.STEP" uid="connector2.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="connector2.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1719989996944547</Mass>
+<CenterOfMass>0.01075794039031621 0.012500000000000002 -5.424800504729269e-12</CenterOfMass>
+<Inertia>0.00012465610050914344 0.00035481146902869242 0.00024742264422173386 6.6313174315095828e-12 -9.4408542660556429e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="connector2.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="connector3.STEP" uid="connector3.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="connector3.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.25777549529322374</Mass>
+<CenterOfMass>-0.066878456014094048 0.012500000000000002 0</CenterOfMass>
+<Inertia>0.00013707426429536727 0.0030730643336405023 0.0029628416834381788 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="connector3.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gfg_Metric - Spur gear 2M 20T 20PA 30FW ---S20N75H50L25N.STEP" uid="gfg_Metric - Spur gear 2M 20T 20PA 30FW ---S20N75H50L25N.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="gfg_Metric - Spur gear 2M 20T 20PA 30FW ---S20N75H50L25N.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.02169017182574455</Mass>
+<CenterOfMass>0.014999999999999991 0 0</CenterOfMass>
+<Inertia>6.131034974664091e-06 4.6922803742628903e-06 4.6922803742628793e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="gfg_Metric - Spur gear 2M 20T 20PA 30FW ---S20N75H50L25N.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="joint d&apos;&apos;amortissement de la tige_D_faut.STEP" uid="joint d&apos;&apos;amortissement de la tige_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="joint d&apos;&apos;amortissement de la tige_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0015079644737231014</Mass>
+<CenterOfMass>-0.02300000000000002 0 0</CenterOfMass>
+<Inertia>2.2317874211101897e-07 1.1473096370910073e-07 1.1473096370910073e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="joint d&apos;&apos;amortissement de la tige_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="joint d&apos;&apos;amortissement tige_D_faut.STEP" uid="joint d&apos;&apos;amortissement tige_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="joint d&apos;&apos;amortissement tige_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.001319468914507714</Mass>
+<CenterOfMass>-0.021999999999999995 0 0</CenterOfMass>
+<Inertia>1.5074932348250634e-07 7.8123555313144354e-08 7.8123555313144328e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="joint d&apos;&apos;amortissement tige_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="joint de piston_D_faut.STEP" uid="joint de piston_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="joint de piston_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0027803094984269619</Mass>
+<CenterOfMass>-0.010499999999999999 0 0</CenterOfMass>
+<Inertia>2.4258200373775258e-06 1.2187023301438197e-06 1.2187023301438195e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="joint de piston_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="joint racleur_D_faut.STEP" uid="joint racleur_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="joint racleur_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0011309733552923263</Mass>
+<CenterOfMass>0.029999999999999995 0 0</CenterOfMass>
+<Inertia>9.6132735199847692e-08 5.0422562090115862e-08 5.0422562090115849e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="joint racleur_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="joint torique n_1_D_faut.STEP" uid="joint torique n_1_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="joint torique n_1_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013101899842446129</Mass>
+<CenterOfMass>-0.025000000000000001 0 0</CenterOfMass>
+<Inertia>1.1424037793872871e-06 5.7193887155978116e-07 5.7193887155978116e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="joint torique n_1_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="joint torique n_2_D_faut.STEP" uid="joint torique n_2_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="joint torique n_2_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.8696044010893595e-05</Mass>
+<CenterOfMass>-0.0089999999999999993 0 0</CenterOfMass>
+<Inertia>2.54142313328051e-09 1.2953855776429784e-09 1.2953855776429782e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="joint torique n_2_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="joint vis_D_faut.STEP" uid="joint vis_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="joint vis_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.8274333882308168e-05</Mass>
+<CenterOfMass>0.0014999999999999992 -0.033999999999999996 0</CenterOfMass>
+<Inertia>2.9216811678385119e-10 5.7962384458731771e-10 2.9216811678385135e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="joint vis_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="piston_D_faut.STEP" uid="piston_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="piston_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.078062294256399212</Mass>
+<CenterOfMass>1.4488087572441859e-05 0 0</CenterOfMass>
+<Inertia>3.3795758369215906e-05 2.2791875985800227e-05 2.2791875985800233e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="piston_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tampon amortisseur 2_D_faut.STEP" uid="tampon amortisseur 2_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tampon amortisseur 2_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.73693074031427708</Mass>
+<CenterOfMass>0.28400068387248895 0.00969207816580233 -4.0076734712969433e-08</CenterOfMass>
+<Inertia>0.00057014814647419533 0.0076642753416046169 0.0080124037542866639 2.6715191128555704e-09 6.1230860554976713e-09 -0.00078091910363263376</Inertia>
+</MassProperties>
+<GeometryFile name="tampon amortisseur 2_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tige de v_rin_D_faut.STEP" uid="tige de v_rin_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tige de v_rin_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.031711654035753843</Mass>
+<CenterOfMass>-0.02596269708256508 0 1.1905324402736045e-11</CenterOfMass>
+<Inertia>1.3369471462746519e-06 9.7605690991440226e-05 9.7076095756361882e-05 -4.5049523447708362e-13 1.3982170787180816e-14 -6.5225222799642681e-16</Inertia>
+</MassProperties>
+<GeometryFile name="tige de v_rin_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tirants_D_faut.STEP" uid="tirants_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tirants_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011538022619084116</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>9.2174956774855274e-08 5.0708218208927926e-05 5.0708218208927926e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="tirants_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tompon amortisseur_D_faut.STEP" uid="tompon amortisseur_D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tompon amortisseur_D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0040597231066014086</Mass>
+<CenterOfMass>0.0014338846972335078 0 0</CenterOfMass>
+<Inertia>2.8868854766559711e-07 3.6428309544199368e-07 3.6428309544199374e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="tompon amortisseur_D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="torque nut 08_iso_ISO 10511-M8-N.STEP" uid="torque nut 08_iso_ISO 10511-M8-N.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="torque nut 08_iso_ISO 10511-M8-N.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00065123714907539031</Mass>
+<CenterOfMass>0 0 -0.0006044730586567675</CenterOfMass>
+<Inertia>1.1510568288503358e-08 1.1510566807183884e-08 1.8672909642744835e-08 0 0 -1.2828602664324172e-15</Inertia>
+</MassProperties>
+<GeometryFile name="torque nut 08_iso_ISO 10511-M8-N.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vis de r_glage d&apos;&apos;amortissement _D_faut.STEP" uid="vis de r_glage d&apos;&apos;amortissement _D_faut.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vis de r_glage d&apos;&apos;amortissement _D_faut.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00055307798681684625</Mass>
+<CenterOfMass>0.0015000000000000011 -0.030986607858392551 -3.8645438123885319e-13</CenterOfMass>
+<Inertia>8.9100647192722635e-09 4.7838501811708491e-09 8.9770530225231258e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vis de r_glage d&apos;&apos;amortissement _D_faut.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wheels connector.STEP" uid="wheels connector.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wheels connector.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.4681293840899932</Mass>
+<CenterOfMass>0 0 7.8515178342078318e-05</CenterOfMass>
+<Inertia>0.00032792511833195753 0.209056194288327 0.20888119931417107 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="wheels connector.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

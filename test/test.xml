@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/20/22||15:31:57" using="Simscape Multibody Link Version 4.8" from="SolidWorks 29.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Main Steering Mechanism_Final" uid="Main Steering Mechanism_Final" version="377">
+<AssemblyFile name="Main Steering Mechanism_Final.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Steering Wheel-1" uid="Steering Wheel-1" entityUid="Steering Wheel*:*Default">
+<Transform>
+<Rotation>-0.0639330762191955 -0.99795418820963444 0 -0.99795418820963444 0.063933076219195487 0 0 0 -1</Rotation>
+<Translation>-4.541506060107281e-015 0.29999999999999988 -0.90821289247827652</Translation>
+</Transform>
+</Instance>
+<Instance name="U connector-4" uid="U connector-4" entityUid="U connector*:*Default">
+<Transform>
+<Rotation>-0.78972651303262376 9.1813925978859859e-016 0.61345907329937921 -0.56937504384940596 0.37223479691108952 -0.73297565812927712 -0.2283508135628603 -0.92813859739187654 -0.29396368819400109</Rotation>
+<Translation>7.5182915448834819e-015 0.27953161305787716 -0.75218871844366564</Translation>
+</Transform>
+</Instance>
+<Instance name="U connector-3" uid="U connector-3" entityUid="U connector*:*Default">
+<Transform>
+<Rotation>0.58482680182618008 0 -0.81115819164067027 -0.81115819164067027 3.4385879781226457e-016 -0.58482680182618008 2.8086372135599698e-016 1 1.9840721407626719e-016</Rotation>
+<Translation>-6.3456184751231604e-015 0.29999999999999988 -0.85821289247827659</Translation>
+</Transform>
+</Instance>
+<Instance name="Rack gear-1" uid="Rack gear-1" entityUid="Rack gear*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.064033340405684924 0.0070000000000000097 -0.014999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Connecting Rod-1" uid="Connecting Rod-1" entityUid="Connecting Rod*:*Default">
+<Transform>
+<Rotation>-0.98732531683059221 0.15870954207410043 -3.6082248300317588e-016 -0.14730445177336249 -0.91637473473263598 -0.37223479691108929 -0.059077214161805107 -0.36751683879561237 0.92813859739187654</Rotation>
+<Translation>5.7436694289592083e-015 0.24975282930499368 -0.67793763065231316</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="crosslinkage-1" uid="crosslinkage-1" entityUid="crosslinkage*:*Default">
+<Transform>
+<Rotation>0.1540511591545333 0.88845359460321871 -0.43234066498510665 0.29820764350227807 -0.4589664587272359 -0.83691217646787697 -0.94198749552208116 3.0988229024764281e-015 -0.33564796778773615</Rotation>
+<Translation>4.9622849232489052e-015 0.032000000000002055 -0.13498783862219838</Translation>
+</Transform>
+</Instance>
+<Instance name="U connector-1" uid="U connector-1" entityUid="U connector*:*Default">
+<Transform>
+<Rotation>-0.43234066498510637 -6.123573870198129e-016 -0.90171034673016592 -0.83691217646787763 -0.37223479691109301 0.40127205839474739 -0.33564796778773487 0.92813859739187532 0.16093223962713749</Rotation>
+<Translation>4.0813706581044329e-015 0.052468386942115794 -0.18602417403461816</Translation>
+</Transform>
+</Instance>
+<Instance name="U connector-2" uid="U connector-2" entityUid="U connector*:*Default">
+<Transform>
+<Rotation>0.88845359460321893 7.7614196222334438e-016 0.45896645872723557 -0.45896645872723568 -2.9326421729268438e-016 0.88845359460321882 8.2416455554196384e-016 -0.99999999999999989 0</Rotation>
+<Translation>3.2070700262121221e-015 0.03199999999999991 -0.079999999999999988</Translation>
+</Transform>
+</Instance>
+<Instance name="spur gear_am-1" uid="spur gear_am-1" entityUid="spur gear_am*:*Metric - Spur gear 2M 20T 20PA 30FW ---S20N75H50L25N">
+<Transform>
+<Rotation>0 -0.44922035047814107 0.89342099634847172 0 -0.89342099634847183 -0.44922035047814102 0.99999999999999989 0 0</Rotation>
+<Translation>3.1548114814983208e-015 0.031999999999999883 -0.029999999999999995</Translation>
+</Transform>
+</Instance>
+<Instance name="crosslinkage-2" uid="crosslinkage-2" entityUid="crosslinkage*:*Default">
+<Transform>
+<Rotation>-0.18522863298932746 -0.78972651303262398 0.58482680182618008 -0.1335456759903719 -0.56937504384940574 -0.81115819164066993 0.97357891613632419 -0.22835081356286058 2.7878059755472752e-015</Rotation>
+<Translation>-8.6779541885739775e-016 0.30000000000000482 -0.80322505385607912</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rack gear-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>spur gear_am-1</Uid>
+</InstancePath>
+<Position>0.029999999999999992 0 0</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>spur gear_am-1</Uid>
+</InstancePath>
+<Position>0.029999999999999992 0 0</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rack gear-1</Uid>
+</InstancePath>
+<Position>-0.25000000000000006 -0.0070000000000000097 0.014999999999999999</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>spur gear_am-1</Uid>
+</InstancePath>
+<Position>0.029999999999999992 0 0</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main Steering Mechanism_Final</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="RackPinionMate2">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Rack gear-1</Uid>
+</InstancePath>
+<Position>-0.25000000000000006 -0.0070000000000000097 -0.014999999999999999</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>spur gear_am-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rack gear-1</Uid>
+</InstancePath>
+<Position>-0.25000000000000006 -0.0070000000000000097 0.014999999999999999</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main Steering Mechanism_Final</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rack gear-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main Steering Mechanism_Final</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>crosslinkage-1</Uid>
+</InstancePath>
+<Position>0 0.035000000000000003 0</Position>
+<Axis>1.3406089274894349e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U connector-2</Uid>
+</InstancePath>
+<Position>0.03500000000000001 0.0049878386221983428 0.020000000000000007</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>crosslinkage-1</Uid>
+</InstancePath>
+<Position>0 0 0.035000000000000017</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U connector-1</Uid>
+</InstancePath>
+<Position>-0.080000000000000016 0.054987838622198332 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>crosslinkage-1</Uid>
+</InstancePath>
+<Position>0 0 0.035000000000000017</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U connector-1</Uid>
+</InstancePath>
+<Position>0.035000000000000017 0.0049878386221983428 0.02</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>crosslinkage-1</Uid>
+</InstancePath>
+<Position>0 0.035000000000000003 0</Position>
+<Axis>-1.3406089274894349e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U connector-2</Uid>
+</InstancePath>
+<Position>-0.080000000000000016 0.054987838622198304 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rack gear-1</Uid>
+</InstancePath>
+<Position>-0.25000000000000006 -0.0070000000000000097 0.014999999999999999</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main Steering Mechanism_Final</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>spur gear_am-1</Uid>
+</InstancePath>
+<Position>0.05000005079999998 0 0</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U connector-2</Uid>
+</InstancePath>
+<Position>0 -0.079999999999999974 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>spur gear_am-1</Uid>
+</InstancePath>
+<Position>0.029999999999999992 0 0</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U connector-2</Uid>
+</InstancePath>
+<Position>0 -0.079999999999999974 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Connecting Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.4499999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U connector-1</Uid>
+</InstancePath>
+<Position>0 -0.080000000000000043 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Connecting Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.4499999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>U connector-1</Uid>
+</InstancePath>
+<Position>0 -0.080000000000000043 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U connector-3</Uid>
+</InstancePath>
+<Position>-0.080000000000000043 0.054987838622198248 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>crosslinkage-2</Uid>
+</InstancePath>
+<Position>0 0 0.035000000000000003</Position>
+<Axis>0 1.3699740149030422e-016 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U connector-3</Uid>
+</InstancePath>
+<Position>0.035000000000000059 0.0049878386221983151 0.020000000000000018</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>crosslinkage-2</Uid>
+</InstancePath>
+<Position>0 0 0.035000000000000003</Position>
+<Axis>0 -1.3699740149030422e-016 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U connector-4</Uid>
+</InstancePath>
+<Position>0.093000000000000041 0.054987838622198359 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>crosslinkage-2</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-016 0.035000000000000003 0</Position>
+<Axis>-1.3877787807814457e-016 -1.0000000000000002 1.3699740149030402e-016</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U connector-4</Uid>
+</InstancePath>
+<Position>-0.034999999999999976 0.069987838622198484 0.020000000000000018</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>crosslinkage-2</Uid>
+</InstancePath>
+<Position>0 -0.035000000000000031 0</Position>
+<Axis>1.3877787807814457e-016 1.0000000000000002 -1.3699740149030402e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Connecting Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.4499999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U connector-4</Uid>
+</InstancePath>
+<Position>0 -0.079999999999999849 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Connecting Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U connector-4</Uid>
+</InstancePath>
+<Position>0 -0.079999999999999849 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>U connector-3</Uid>
+</InstancePath>
+<Position>0 -0.07999999999999996 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main Steering Mechanism_Final</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Steering Wheel-1</Uid>
+</InstancePath>
+<Position>0 0 0.030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U connector-3</Uid>
+</InstancePath>
+<Position>0 -0.07999999999999996 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steering Wheel-1</Uid>
+</InstancePath>
+<Position>0 0 0.030000000000000027</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>U connector-3</Uid>
+</InstancePath>
+<Position>0 -0.07999999999999996 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident35">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Connecting Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.4499999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main Steering Mechanism_Final</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>U connector-3</Uid>
+</InstancePath>
+<Position>0 -0.07999999999999996 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Main Steering Mechanism_Final</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Connecting Rod" uid="Connecting Rod*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Connecting Rod.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.22089323345553238</Mass>
+<CenterOfMass>0 0 0.22500000000000003</CenterOfMass>
+<Inertia>0.0037362019564939658 0.0037362019564939658 1.7257283863713464e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Connecting Rod_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rack gear" uid="Rack gear*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rack gear.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.17392154715350597</Mass>
+<CenterOfMass>5.1354033461193719e-005 -0.0010611476962539025 0</CenterOfMass>
+<Inertia>1.5278125822538815e-005 0.0036378711932308796 0.0036270610869803921 0 0 -5.5102297895444611e-008</Inertia>
+</MassProperties>
+<GeometryFile name="Rack gear_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Steering Wheel" uid="Steering Wheel*:*Default" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Steering Wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.69478473618994741</Mass>
+<CenterOfMass>0 0 0.016363168736835399</CenterOfMass>
+<Inertia>0.0071864984170108299 0.0071864984170108264 0.01428461766519417 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Steering Wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="U connector" uid="U connector*:*Default" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="U connector.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11813368481800844</Mass>
+<CenterOfMass>0 0.00074631998502621517 0</CenterOfMass>
+<Inertia>0.00017493121873242692 0.00011053745022529546 0.00025905548704975324 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="U connector_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="crosslinkage" uid="crosslinkage*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="crosslinkage.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.034365365526635896</Mass>
+<CenterOfMass>1.2755807746446707e-007 -1.517867251949185e-007 -3.0701800205002758e-007</CenterOfMass>
+<Inertia>1.8350067862245583e-005 1.2525950092823617e-005 1.2526470745089516e-005 6.3501910327880945e-011 7.7228842520943336e-011 6.3378643978142616e-011</Inertia>
+</MassProperties>
+<GeometryFile name="crosslinkage_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="spur gear_am" uid="spur gear_am*:*Metric - Spur gear 2M 20T 20PA 30FW ---S20N75H50L25N" version="1482">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="spur gear_am.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.021690171825744578</Mass>
+<CenterOfMass>0.015000000000000005 0 0</CenterOfMass>
+<Inertia>6.1310349746641029e-006 4.6922803742628971e-006 4.6922803742628887e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="spur gear_am_Metric - Spur gear 2M 20T 20PA 30FW ---S20N75H50L25N_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

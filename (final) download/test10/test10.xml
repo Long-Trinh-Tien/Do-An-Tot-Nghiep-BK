@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="03/16/23||10:30:32" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem11" uid="Assem11" version="198">
+<AssemblyFile name="Assem11.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="connector2.STEP_Default_sldprt.step-2" uid="connector2.STEP_Default_sldprt.step-2" entityUid="connector2.STEP_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.036934842908181297 -0.99770635281940334 -0.056726104424262014 -0.46232489530669368 0.033264631113843604 -0.88608642665177684 0.88594102995572055 0.058953353260558616 -0.46003586118946538</Rotation>
+<Translation>1.7960976704994045 0.59318114507622843 1.2029679688572958</Translation>
+</Transform>
+</Instance>
+<Instance name="wheels connector.STEP_Default_sldprt.step-1" uid="wheels connector.STEP_Default_sldprt.step-1" grounded="true" entityUid="wheels connector.STEP_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.99819483559320066 -0.045847709503442129 0.038795073506195946 -0.022780419107481683 0.30865263032187545 0.95090199615979099 -0.055570879967395223 -0.95006922975574559 0.30705103154194696</Rotation>
+<Translation>1.0336418379338954 0.59820037976569806 1.2808634013078368</Translation>
+</Transform>
+</Instance>
+<Instance name="connector2.STEP_Default_sldprt.step-1" uid="connector2.STEP_Default_sldprt.step-1" entityUid="connector2.STEP_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.036751846620932969 -0.9977442438722085 -0.056175845252442749 -0.46722270057863552 0.03253574782541805 -0.88354081579599242 0.88337548632161988 0.058718386671602084 -0.46497301129498475</Rotation>
+<Translation>0.29286221173450777 0.62977588847907862 1.2873986228808905</Translation>
+</Transform>
+</Instance>
+<Instance name="connector3.STEP_Default_sldprt.step-2" uid="connector3.STEP_Default_sldprt.step-2" entityUid="connector3.STEP_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.57961596892494049 0.036934842908181387 0.81405229926986289 0.73209851132429249 -0.46232489530669346 -0.5002873783101166 0.35787860830728241 0.88594102995572055 -0.29501083566038699</Rotation>
+<Translation>1.7157830932194416 0.46973260606574191 1.2265508854565297</Translation>
+</Transform>
+</Instance>
+<Instance name="connector.STEP_Default_sldprt.step-1" uid="connector.STEP_Default_sldprt.step-1" entityUid="connector.STEP_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.045847709503442233 0.049034797370130383 -0.99774424387222516 -0.30865263032187373 0.95061820880353987 0.032535747825095461 0.95006922975574615 0.30646469574490903 0.058718386671498125</Rotation>
+<Translation>0.39149044338380634 0.63423862945469267 1.2577750534698866</Translation>
+</Transform>
+</Instance>
+<Instance name="connector3.STEP_Default_sldprt.step-1" uid="connector3.STEP_Default_sldprt.step-1" entityUid="connector3.STEP_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.37464968522825054 0.036751846620932976 0.92643775566862785 0.81305737709359527 -0.46722270057863557 0.34733362868816758 0.44561790236934612 0.88337548632161988 0.14516347768631718</Rotation>
+<Translation>0.328789558809023 0.49608785934743799 1.3000970980124675</Translation>
+</Transform>
+</Instance>
+<Instance name="connector.STEP_Default_sldprt.step-2" uid="connector.STEP_Default_sldprt.step-2" entityUid="connector.STEP_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.045847709503442018 0.049799810010180114 0.99770635281942466 0.30865263032187412 0.95059298236010337 -0.033264631113439268 -0.95006922975574593 0.30641958294253108 -0.05895335326042829</Rotation>
+<Translation>1.672530569134165 0.58962290820806351 1.2340888687589906</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheels.STEP_Default_sldprt.step-2" uid="Wheels.STEP_Default_sldprt.step-2" entityUid="Wheels.STEP_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.040003322477160208 0.054605565051105052 0.99770635281942444 0.99231590994285668 -0.11917465834298578 -0.033264631113435847 0.11708487974571563 0.99137058311929049 -0.058953353260431017</Rotation>
+<Translation>1.8010862022631025 0.59301482192055543 1.2026732020916424</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheels.STEP_Default_sldprt.step-1" uid="Wheels.STEP_Default_sldprt.step-1" entityUid="Wheels.STEP_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>-0.041726955635598584 0.052585977153869111 -0.99774424387222493 -0.98577478932822882 -0.16489235833824473 0.03253574782509621 -0.16280947729868536 0.98490873951266411 0.058718386671503538</Rotation>
+<Translation>0.26292988441800813 0.63075196091326058 1.289160174481391</Translation>
+</Transform>
+</Instance>
+<Instance name="tampon amortisseur 2_D_faut.STEP_Default_sldprt.step-1" uid="tampon amortisseur 2_D_faut.STEP_Default_sldprt.step-1" entityUid="tampon amortisseur 2_D_faut.STEP_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.99877341433216593 0.036934842908181297 -0.032977025375491568 -0.01217735963872197 -0.46232489530669368 -0.88662698080527869 -0.047993528058448344 0.88594102995572066 -0.46130804535093484</Rotation>
+<Translation>1.2351596567900109 0.39571964527435011 1.1368538508461348</Translation>
+</Transform>
+</Instance>
+<Instance name="Rack gear.STEP_Default_sldprt.step-1" uid="Rack gear.STEP_Default_sldprt.step-1" entityUid="Rack gear.STEP_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.99877341433216571 0.036751846620932928 -0.03318084678273401 -0.012177359638721913 -0.46722270057863552 -0.88405580139278306 -0.047993528058448365 0.88337548632161988 -0.46620207145672865</Rotation>
+<Translation>0.78571162034053543 0.40119945711177507 1.1584509384724364</Translation>
+</Transform>
+</Instance>
+<Instance name="tige de v_rin_D_faut.STEP_Default_sldprt.step-1" uid="tige de v_rin_D_faut.STEP_Default_sldprt.step-1" entityUid="tige de v_rin_D_faut.STEP_Default_sldprt.step*:*Default">
+<Transform>
+<Rotation>0.99877341433216571 0.036751846620932838 -0.033180846782734218 -0.01217735963872214 -0.46722270057863552 -0.88405580139278306 -0.047993528058448386 0.88337548632161988 -0.46620207145672865</Rotation>
+<Translation>1.1352823153567939 0.39693738123822231 1.1416532036519795</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector3.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.12182783924812512 0.025000000000000133 0</Position>
+<Axis>-1.1102230246251565e-16 -1 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector2.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.10000000000000009 0.012500000000000011 2.2204460492503131e-16</Position>
+<Axis>-0.99999999999999978 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector2.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0 0.02500000000000005 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.025000000000000133 0 0.30000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector2.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0 0 0.099999999999999978</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wheels connector.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>-0.64053013233399725 -0.094785938191106922 0.0022672319933456642</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheels connector.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.59999999999999998 0.012499999999999734 0.022499999999999964</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.050000000000000044 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector3.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>0.1218278392481249 0.0249999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector2.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>0.10000000000000009 0.012499999999999956 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector2.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.024999999999999911 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>0.025000000000000133 0 0.30000000000000004</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector2.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.024999999999999911 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 0 0.099999999999999867</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wheels connector.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.64053013233399703 -0.094785938191106922 0.0022672319933456642</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheels connector.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.59999999999999998 0.012499999999999734 0.022499999999999964</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector3.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0 0.025000000000000133 0</Position>
+<Axis>1.1102230246251565e-16 1 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector2.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.10000000000000009 0.012500000000000011 2.2204460492503131e-16</Position>
+<Axis>0.99999999999999978 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector3.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>0 0.0249999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector2.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>0.10000000000000009 0.012499999999999956 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.025000000000000133 0 0.30000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Wheels.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0 2.2204460492503131e-16 0.01999999999999999</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.025000000000000133 0 0.30000000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wheels.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0 2.2204460492503131e-16 0.17000000000000004</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>0.025000000000000133 0 0.30000000000000004</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Wheels.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 0.020000000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>0.025000000000000133 0 0.30000000000000004</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wheels.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 0.16999999999999993</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>connector3.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>-0.14742434545074334 0.025000000000000022 0</Position>
+<Axis>1.1102230246251565e-16 1 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Rack gear.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>-0.40453789548184388 0.088999999999999857 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector3.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0 0.025000000000000133 0</Position>
+<Axis>1.1102230246251565e-16 1 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rack gear.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>-0.40453789548184388 0.088999999999999857 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>connector3.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>-0.14742434545074334 0.025000000000000022 -1.1102230246251565e-16</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tampon amortisseur 2_D_faut.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.39332948880836649 0.088000000000000078 -1.1102230246251565e-16</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>connector3.STEP_Default_sldprt.step-2</Uid>
+</InstancePath>
+<Position>0 0.0249999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tampon amortisseur 2_D_faut.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.39332948880836649 0.088000000000000078 -1.1102230246251565e-16</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rack gear.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.24999999999999989 -0.0070000000000001172 0.014999999999999902</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tige de v_rin_D_faut.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>-0.099999999999999867 0.0049999999999998934 -2.2204460492503131e-16</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rack gear.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999902</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tige de v_rin_D_faut.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>-0.045394109285506357 -0.0070000000000001172 0.014999999999999902</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rack gear.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>-0.24999999999999994 -0.0070000000000001172 0.014999999999999902</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tige de v_rin_D_faut.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>-0.045394109285506357 -0.0070000000000002283 -0.015000000000000013</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tampon amortisseur 2_D_faut.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tige de v_rin_D_faut.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0.10000000000000009 -1.1102230246251565e-16 -1.1102230246251565e-16</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tampon amortisseur 2_D_faut.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tige de v_rin_D_faut.STEP_Default_sldprt.step-1</Uid>
+</InstancePath>
+<Position>-0.099999999999999978 -1.1102230246251565e-16 -1.1102230246251565e-16</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Rack gear.STEP_Default_sldprt.step" uid="Rack gear.STEP_Default_sldprt.step*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rack gear.STEP_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.65750692250496923</Mass>
+<CenterOfMass>-0.26326026630243132 0.010846365197996194 7.978807001026444e-08</CenterOfMass>
+<Inertia>0.0005236863031387348 0.021459835783067704 0.021804342462008058 -4.4905211962579556e-09 1.0935888554959209e-08 0.0010822389401072688</Inertia>
+</MassProperties>
+<GeometryFile name="Rack gear.STEP_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Wheels.STEP_Default_sldprt.step" uid="Wheels.STEP_Default_sldprt.step*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Wheels.STEP_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>10.82827058614248</Mass>
+<CenterOfMass>-6.7185098644500611e-06 -1.7421448488243184e-05 0.095067281339501236</CenterOfMass>
+<Inertia>0.34690556335365386 0.34692468738493981 0.64009737957078816 4.6555969509955916e-06 1.7026810297215515e-06 9.3597607950422957e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Wheels.STEP_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="connector.STEP_Default_sldprt.step" uid="connector.STEP_Default_sldprt.step*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="connector.STEP_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.66660728003825598</Mass>
+<CenterOfMass>0.024999999999999998 0 0.13579057072586531</CenterOfMass>
+<Inertia>0.005685433491572218 0.0056837534910208218 0.00023852687955705241 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="connector.STEP_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="connector2.STEP_Default_sldprt.step" uid="connector2.STEP_Default_sldprt.step*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="connector2.STEP_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.17199899969445473</Mass>
+<CenterOfMass>0.010757940390316214 0.012500000000000002 -5.4248009279404152e-12</CenterOfMass>
+<Inertia>0.00012465610050914341 0.00035481146902869247 0.00024742264422173392 6.6313174315095828e-12 -9.4408542577565273e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="connector2.STEP_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="connector3.STEP_Default_sldprt.step" uid="connector3.STEP_Default_sldprt.step*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="connector3.STEP_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.2577754952932238</Mass>
+<CenterOfMass>-0.066878456014094062 0.012500000000000002 0</CenterOfMass>
+<Inertia>0.00013707426429536727 0.0030730643336405032 0.0029628416834381792 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="connector3.STEP_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tampon amortisseur 2_D_faut.STEP_Default_sldprt.step" uid="tampon amortisseur 2_D_faut.STEP_Default_sldprt.step*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tampon amortisseur 2_D_faut.STEP_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.73693074031427708</Mass>
+<CenterOfMass>0.28400068387248895 0.0096920781658023352 -4.0076734712969069e-08</CenterOfMass>
+<Inertia>0.00057014814647419619 0.0076642753416046186 0.0080124037542866674 2.6715191128556589e-09 6.1230860554976861e-09 -0.00078091910363263311</Inertia>
+</MassProperties>
+<GeometryFile name="tampon amortisseur 2_D_faut.STEP_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tige de v_rin_D_faut.STEP_Default_sldprt.step" uid="tige de v_rin_D_faut.STEP_Default_sldprt.step*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tige de v_rin_D_faut.STEP_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.031711654035753843</Mass>
+<CenterOfMass>-0.025962697082565066 0 1.1905324448383808e-11</CenterOfMass>
+<Inertia>1.3369471462746519e-06 9.7605690991440253e-05 9.7076095756361909e-05 -4.5049523447699805e-13 1.3982171130876664e-14 -6.5225222571263978e-16</Inertia>
+</MassProperties>
+<GeometryFile name="tige de v_rin_D_faut.STEP_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wheels connector.STEP_Default_sldprt.step" uid="wheels connector.STEP_Default_sldprt.step*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wheels connector.STEP_Default_sldprt.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.4681293840899932</Mass>
+<CenterOfMass>0 0 7.8515178342077749e-05</CenterOfMass>
+<Inertia>0.00032792511833195758 0.20905619428832697 0.20888119931417104 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="wheels connector.STEP_Default_sldprt.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
